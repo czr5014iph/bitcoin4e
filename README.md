@@ -1,28 +1,22 @@
-*Want to get XT? Download it from https://bitcoinxt.software*
+*Want to get 4E(Free)? It's about damn time! Download it and lets start a revolution of 4Edom!
 
-Bitcoin XT
+Bitcoin 4E
 ==========
 
-Bitcoin XT is a patch set on top of Bitcoin Core. It implements various changes which you can read about on the website:
+Bitcoin 4E is a patch set on top of Bitcoin Core. It implements various changes which you can read about on here.
 
-https://bitcoinxt.software/patches.html
-
-XT uses the same data directories as Core so you can easily switch back and forth. You will keep and continue updating the same block chain.
+4E uses the same data directories as Core so you can easily switch back and forth. You will keep and continue updating the same block chain.
  
-Bitcoin XT downloads are code signed and are [built reproducibly using gitian](https://github.com/bitcoinxt/gitian.sigs). If you use it please [sign up to the announcement mailing list](https://bitcoinxt.software) so you can be reminded of new versions.
 
 Development process
 ===================
 
-To propose a patch for inclusion or to discuss Bitcoin development in general, you are welcome to use the [mailing list](https://groups.google.com/forum/#!forum/bitcoin-xt/).
-
 The repository has a similar structure to upstream, however, because patches are constantly rebased every release
-has a branch including the minor ones. XT releases use the upstream version with a letter after them. If two releases
+has a branch including the minor ones. 4E releases use the upstream version with a letter after them. If two releases
 are done based on the same upstream release, the letter is incremented (0.11.0A, 0.11.0B etc).
 
 We have a manifesto that lays out things we believe are important, which you can read about here:
 
-https://bitcoinxt.software/
 
 About double spend relaying
 ===========================
@@ -38,7 +32,7 @@ Double spend relaying was developed by Gavin Andresen and Tom Harding.
 About UTXO set queries
 ======================
 
-Bitcoin XT supports [BIP 64](https://github.com/bitcoin/bips/blob/master/bip-0064.mediawiki), and so it supports looking up entries in the UTXO database given an outpoint (a transaction id and output index pair). This can be useful for contracts based applications. An example follows.
+Bitcoin 4E supports [BIP 64](https://github.com/bitcoin/bips/blob/master/bip-0064.mediawiki), and so it supports looking up entries in the UTXO database given an outpoint (a transaction id and output index pair). This can be useful for contracts based applications. An example follows.
 
 The Bitcoin protocol allows people to collaborate on building transactions in various ways. One of those ways (the SIGHASH_ANYONECANPAY flag) allows people to create partially signed invalid transactions that cannot be redeemed unless they are combined with other similar transactions, allowing for the creation of a decentralised *assurance contracts*: usually better known as Kickstarter style all-or-nothing crowdfunds. [The protocol](https://en.bitcoin.it/wiki/Contracts#Example_3:_Assurance_contracts) has been implemented in a specialised GUI wallet application called [Lighthouse](https://www.vinumeris.com/lighthouse), which makes creating projects and pledging to them with partial Bitcoin transactions easy.
 
@@ -51,5 +45,5 @@ Possible future features
 
 Ideas for useful protocol upgrades are tracked in the issue tracker.
 
-Bitcoin XT is intended to be compatible with crowd funded development. If you would like to experiment with a (non consensus changing) protocol upgrade, please discuss it on the mailing list first. You should be able to get a clear decision on the concept and design before starting on the implementation.
+Bitcoin 4E is intended to be compatible with crowd funded development. If you would like to experiment with a (non consensus changing) protocol upgrade, please discuss it on the mailing list first. You should be able to get a clear decision on the concept and design before starting on the implementation.
 
